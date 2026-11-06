@@ -141,4 +141,19 @@ footer {
         padding: 65px 7%;
     }
 }
+section {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#home {
+    opacity: 1;
+    transform: none;
+}
 
